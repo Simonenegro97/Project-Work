@@ -1,0 +1,79 @@
+<!-- Pagina HTML con dichiarazione completa DOCTYPE, lingua e charset inclusi -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report di Sostenibilità - Ferrari</title>
+  <!-- Collegamento al file CSS esterno -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Intestazione della pagina -->
+  <header>
+    <!-- Inserimento del logo Ferrari -->
+    <img src="https://projectwork.simonenegro.it/Logo.png" alt="Logo Ferrari" class="logo">
+    <h1>Report di Sostenibilità </h1> 
+    <p>Esplora l'impegno Ferrari per la sostenibilità, l'innovazione e la responsabilità ambientale.</p>
+  </header>
+
+  <!-- Contenuto principale della pagina -->
+  <main>
+    <!-- Sezione introduttiva sull’impegno di Ferrari -->
+    <section class="intro">
+      <h2>Il nostro impegno per un futuro sostenibile</h2>
+      <p>Nel 2024 Ferrari ha fatto passi concreti verso la neutralità carbonica entro il 2030, grazie all'inaugurazione dell’e-building a Maranello,
+         alla chiusura anticipata del trigeneratore per ridurre il consumo di metano, e all’introduzione di iniziative per il benessere dei dipendenti.</p>
+      <p>In collaborazione con l'Università di Bologna e NXP, Ferrari ha lanciato l’E-Cells Lab, centro di ricerca per migliorare le tecnologie legate alle celle al litio.</p>
+      <p>L'azienda punta a una mobilità più pulita con l’arrivo della prima Ferrari completamente elettrica prevista per il 2025.</p>
+    </section>
+
+    <!-- Elenco dei report scaricabili -->
+    <section class="report-list">
+      <!-- Primo report -->
+      <div class="report-item">
+        <h3>Report di Sostenibilità 2024</h3>
+        <p>Risultati e traguardi Ferrari in ambito ambientale e sociale nel 2024.</p>
+        <button onclick="scarica('2024.pdf')">Scarica PDF</button>
+      </div>
+
+      <!-- Secondo report -->
+      <div class="report-item">
+        <h3>Report di Sostenibilità 2023</h3>
+        <p>Approccio Ferrari alla sostenibilità per il futuro della mobilità e dell’industria.</p>
+        <button onclick="scarica('2023.pdf')">Scarica PDF</button>
+      </div>
+
+      <!-- Terzo report -->
+      <div class="report-item">
+        <h3>Report di Sostenibilità 2022</h3>
+        <p>Le basi del percorso sostenibile intrapreso da Ferrari.</p>
+        <button onclick="scarica('2022.pdf')">Scarica PDF</button>
+      </div>
+
+      <!-- Quarto report -->
+      <div class="report-item">
+        <h3>Report di Sostenibilità 2021</h3>
+        <p>L’impegno costante di Ferrari nel coniugare eccellenza ingegneristica e responsabilità ambientale per una crescita consapevole.</p>
+        <button onclick="scarica('2021.pdf')">Scarica PDF</button>
+      </div>
+
+      <!-- Quinto report -->
+      <div class="report-item">
+        <h3>Report di Sostenibilità 2020</h3>
+        <p>Verso un domani più verde: la strategia sostenibile di Ferrari tra innovazione tecnologica e attenzione al pianeta.</p>
+        <button onclick="scarica('2020.pdf')">Scarica PDF</button>
+      </div>
+      
+    </section>
+  </main>
+
+  <!-- Piè di pagina -->
+  <footer>
+    &copy; 2025 Ferrari S.p.A. - Tutti i diritti riservati
+  </footer>
+
+  <!-- Collegamento al file JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
