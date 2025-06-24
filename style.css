@@ -87,3 +87,15 @@ footer {
   margin-top: 3rem;
   font-size: 0.9rem;
 }
+
+/* Stile per il link al codice sorgente nel footer */
+.footer-link {
+color: #cc0000;
+text-decoration: underline;
+font-size: 0.9rem;
+display: inline-block;
+margin-top: 0.5rem;
+}
+.footer-link:hover {
+color: #a30000;
+}
